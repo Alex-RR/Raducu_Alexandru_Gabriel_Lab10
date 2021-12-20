@@ -27,7 +27,6 @@ namespace Raducu_Alexandru_Gabriel_Lab10
         {
             InitializeComponent();
             MainPage = new NavigationPage(new ListEntryPage());
-            MainPage = new MainPage();
         }
 
         protected override void OnStart()
