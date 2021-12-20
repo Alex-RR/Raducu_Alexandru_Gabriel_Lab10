@@ -15,9 +15,7 @@ namespace Raducu_Alexandru_Gabriel_Lab10
             {
                 if (database == null)
                 {
-                    database = new
-                   ShoppingListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.
-                   LocalApplicationData), "ShoppingList.db3"));
+                    database = new ShoppingListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ShoppingList.db3"));
                 }
                 return database;
             }
@@ -27,7 +25,6 @@ namespace Raducu_Alexandru_Gabriel_Lab10
         {
             InitializeComponent();
             MainPage = new NavigationPage(new ListEntryPage());
-            MainPage = new MainPage();
         }
 
         protected override void OnStart()
